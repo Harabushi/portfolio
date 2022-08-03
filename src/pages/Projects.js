@@ -5,6 +5,7 @@ import bande from "../assets/images/bande-screenshot.png";
 import hiddenGems from "../assets/images/hidden-gems-screenshot.jpg";
 import mhc from "../assets/images/mhc-screenshot.png";
 import Nav from "../components/Nav";
+import Footer from "../components/footer";
 
 const Projects = () => {
   return (
@@ -45,6 +46,7 @@ const Projects = () => {
           </figure>
         </div>
       </main>
+      <Footer></Footer>
     </div>
   );
 };

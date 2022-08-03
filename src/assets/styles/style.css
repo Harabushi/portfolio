@@ -1,11 +1,12 @@
 body {
   padding-top: 65px;
-  min-height: 100vh;;
+  min-height: 100vh;
 }
 
 main {
   overflow:auto;
   padding-bottom:50px; /* this needs to be bigger than footer height*/
+  min-height: 75vh;
 }
 
 .navbar {

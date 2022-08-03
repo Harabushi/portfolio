@@ -1,7 +1,7 @@
 import * as React from "react";
 import "../assets/styles/bootstrap.css";
 import "../assets/styles/style.css";
-import Resume from "../assets/docs/colby-harris-resume.pdf"
+import Resume from "../assets/docs/colby-harris-resume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faEnvelopeSquare, faFile } from "@fortawesome/free-solid-svg-icons";
