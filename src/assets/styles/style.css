@@ -5,11 +5,7 @@ body {
 
 main {
   overflow:auto;
-  padding-bottom:150px; /* this needs to be bigger than footer height*/
-}
-
-footer h2 {
-  border-bottom: 1px solid;
+  padding-bottom:50px; /* this needs to be bigger than footer height*/
 }
 
 .navbar {
@@ -28,12 +24,26 @@ footer h2 {
   border-radius: 0%;
 }
 
+.wrapper {
+  position: flex;
+  justify-content: space-between;
+}
+
 @media (min-width: 576px) {
-  footer h2 {
-    border-bottom: 0;
+  .icon {
+    height: 60px;
   }
-  address {
-    border-left: 1px solid;
+}
+
+@media (min-width: 768px) {
+  .icon {
+    height: 70px;
+  }
+}
+
+@media (min-width: 992px) {
+  .icon {
+    height: 80px;
   }
 }
 
@@ -58,6 +68,9 @@ footer h2 {
     height: 700px;
   }
 
+  .icon {
+    height: 90px;
+  }
 }
 
 @media (min-width: 2440px) {

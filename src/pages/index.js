@@ -5,6 +5,7 @@ import Nav from "../components/Nav";
 import profilePhoto from "../assets/images/profile-photo.jpg";
 import { Script } from "gatsby";
 import Skills from "../components/Skills";
+import Footer from "../components/footer";
 
 // data
 const links = [
@@ -55,6 +56,7 @@ const IndexPage = () => {
           <Skills className="my-5"></Skills>
         </section>
       </main>
+      <Footer></Footer>
       <Script
         src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
