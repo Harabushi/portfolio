@@ -13,26 +13,26 @@ const Contact = () => {
       <Nav></Nav>
       <main className="container-xxl my-5">
         <div className="container text-center align-middle col-10 col-3xl-8">
-            <h2 className="p-2 border-bottom border-secondary">How to reach me!</h2>
+            <h2 className="p-2 border-bottom border-secondary text-secondary">How to reach me!</h2>
         </div>
         <article className="container align-self-center align-middle col-10 col-3xl-8 my-5">
         <div className="row align-self-center my-5 p-2 justify-content-between">
           <div className="col-12 col-md-12 col-lg-5 col-3xl-5 border border-primary m-1">
-            <p>
+            <p className="m-3">
               Have any questions about me or my projects? <br /><br />
               Want to get in touch about any of my projects or to talk about what I could do for yours?<br /><br />
               Reach out using whatever mode of contact is best for you!
             </p>
           </div>
           <div className="col-12 col-md-12 col-lg-5 col-3xl-5 text-center border border-primary m-1">
-            <p>
+            <p className="m-3">
               Ways to contact me:
               <br/>
               (Don't forget to check out my <a href={Resume} className="text-decoration-none link-secondary" target="_blank" rel="noreferrer">resume</a>!)
               <br /><br />
-              763.412.7142
+              <span className="text-secondary">763.412.7142</span>
               <br /><br />
-              <a href="mailto:harris.colby@gmail.com" className="text-decoration-none m-2" target="_blank" rel="noreferrer">
+              <a href="mailto:harris.colby@gmail.com" className="text-decoration-none link-secondary" target="_blank" rel="noreferrer">
                 harris.colby@gmail.com
               </a>
               <br /><br />

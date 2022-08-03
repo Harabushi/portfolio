@@ -26,7 +26,7 @@ const IndexPage = () => {
       <main className="container-xxl my-5">
         <div className="row">
           <article className="container text-center align-middle col-10 col-3xl-8" id="about-me">
-            <h2 className="p-2 border-bottom border-secondary">About Me</h2>
+            <h2 className="p-2 border-bottom border-secondary text-secondary">About Me</h2>
             <div className="row align-self-center my-5">
               <div className="col-12 col-md-12 col-lg-6 col-3xl-6">
                 <img
@@ -52,7 +52,7 @@ const IndexPage = () => {
           </article>
         </div>
         <section className="container text-center align-middle col-10 col-3xl-8" id="skills">
-          <h2 className="p-2 border-bottom border-secondary">Skills</h2>
+          <h2 className="p-2 border-bottom border-secondary text-secondary">Skills</h2>
           <Skills className="my-5"></Skills>
         </section>
       </main>
