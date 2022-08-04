@@ -11,9 +11,9 @@ const Contact = () => {
   return (
     <div>
       <Nav></Nav>
-      <main className="container-xxl my-5">
-        <div className="container text-center align-middle col-10 col-3xl-8">
-            <h2 className="p-2 border-bottom border-secondary text-secondary">How to reach me!</h2>
+      <main className="container-xxl mt-5">
+        <div className="container text-center align-middle col-3xl-8">
+            <h2 className="p-2 border-bottom border-light text-light">How to reach me!</h2>
         </div>
         <article className="container align-self-center align-middle col-10 col-3xl-8 my-5">
         <div className="row align-self-center my-5 p-2 justify-content-between">
@@ -28,19 +28,19 @@ const Contact = () => {
             <p className="m-3">
               Ways to contact me:
               <br/>
-              (Don't forget to check out my <a href={Resume} className="text-decoration-none link-secondary" target="_blank" rel="noreferrer">resume</a>!)
+              (Don't forget to check out my <a href={Resume} className="text-decoration-none link-info" target="_blank" rel="noreferrer">resume</a>!)
               <br /><br />
-              <span className="text-secondary">763.412.7142</span>
+              <span className="text-info">763.412.7142</span>
               <br /><br />
-              <a href="mailto:harris.colby@gmail.com" className="text-decoration-none link-secondary" target="_blank" rel="noreferrer">
+              <a href="mailto:harris.colby@gmail.com" className="text-decoration-none link-info" target="_blank" rel="noreferrer">
                 harris.colby@gmail.com
               </a>
               <br /><br />
               Social Media:
-              <a href="https://www.linkedin.com/in/colby-harris-a6465871/" className="text-decoration-none m-2 fa-2x" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/in/colby-harris-a6465871/" className="text-decoration-none link-info m-2 fa-2x" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
-              <a href="https://www.github.com/Harabushi" className="text-decoration-none m-2 fa-2x" target="_blank" rel="noreferrer">
+              <a href="https://www.github.com/Harabushi" className="text-decoration-none link-info m-2 fa-2x" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </p>

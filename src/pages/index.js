@@ -7,26 +7,14 @@ import { Script } from "gatsby";
 import Skills from "../components/Skills";
 import Footer from "../components/footer";
 
-// data
-const links = [
-  {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial/",
-    description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-    color: "#E95800",
-  },
-];
-
-// markup
 const IndexPage = () => {
   return (
     <div>
       <Nav></Nav>
-      <main className="container-xxl my-5">
+      <main className="container-xxl mt-5">
         <div className="row">
-          <article className="container text-center align-middle col-10 col-3xl-8" id="about-me">
-            <h2 className="p-2 border-bottom border-secondary text-secondary">About Me</h2>
+          <article className="container text-center align-middle col-3xl-8" id="about-me">
+            <h2 className="p-2 border-bottom border-light text-light">About Me</h2>
             <div className="row align-self-center my-5">
               <div className="col-12 col-md-12 col-lg-6 col-3xl-6">
                 <img
@@ -51,8 +39,8 @@ const IndexPage = () => {
             </div>
           </article>
         </div>
-        <section className="container text-center align-middle col-10 col-3xl-8" id="skills">
-          <h2 className="p-2 border-bottom border-secondary text-secondary">Skills</h2>
+        <section className="container text-center align-middle col-3xl-8" id="skills">
+          <h2 className="p-2 border-bottom border-light text-light">Skills</h2>
           <Skills className="my-5"></Skills>
         </section>
       </main>

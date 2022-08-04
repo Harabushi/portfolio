@@ -1,11 +1,10 @@
 body {
-  padding-top: 65px;
   min-height: 100vh;
 }
 
 main {
   overflow:auto;
-  padding-bottom:50px; /* this needs to be bigger than footer height*/
+  padding-bottom: 50px; /* this needs to be bigger than footer height*/
   min-height: 75vh;
 }
 
@@ -13,6 +12,7 @@ main {
   -webkit-box-shadow: 0 8px 6px -6px #999;
   -moz-box-shadow: 0 8px 6px -6px #999;
   box-shadow: 0 8px 6px -6px #999;
+  padding: 0.5rem 0;
 }
 
 .icon {

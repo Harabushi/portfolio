@@ -11,11 +11,11 @@ const Projects = () => {
   return (
     <div>
       <Nav></Nav>
-      <main className="container text-center col-10 col-3xl-8 my-5" id="my-work">
-        <h2 className="p-2 border-bottom border-secondary text-secondary">My Work</h2>
-        <div className="row my-5">
+      <main className="container text-center col-3xl-8 mt-5" id="my-work">
+        <h2 className="p-2 border-bottom border-light text-light mb-5">My Work</h2>
+        <div className="row">
           <div className="col-12 col-sm-6">
-            <h3 className="text-secondary">Mental Health Checker</h3>
+            <h3 className="text-light border-bottom border-primary">Mental Health Checker</h3>
             <h4>My Role: Back-end</h4>
             <p>
               A mental health quiz app that helps users track their moods using standardized 
@@ -27,6 +27,13 @@ const Projects = () => {
             <p>
               The application uses a React.js front-end with MongoDB, Express.js and Node.js running the back-end
             </p>
+            <h4>
+              Repo: <a href="https://github.com/Harabushi/mental-health-check"
+                className="text-decoration-none link-info"
+                target="_blank"
+                rel="noreferrer">Harabushi/mental-health-check
+              </a>
+            </h4>
           </div>
           <figure className="col-12 col-sm-6">
             <a href="https://mh-check.herokuapp.com/" target="_blank" rel="noreferrer">
@@ -41,7 +48,7 @@ const Projects = () => {
         </div>
         <div className="row">
           <div className="col-12 col-sm-6">
-            <h3 className="text-secondary">Traveler's Hidden Gems</h3>
+            <h3 className="text-light border-bottom border-primary">Traveler's Hidden Gems</h3>
             <h4>My Role: Back-end</h4>
             <p>
               A travel guide to hidden spots across the globe. Find the offbeat, 
@@ -54,6 +61,13 @@ const Projects = () => {
             <p>
               This app is made with a Handlebars.js front-end with MySQL, Sequelize, Express.js, and Node.js running the back-end. Along with some third-party API's leaflet.js, GeoApify API
             </p>
+            <h4>
+              Repo: <a href="https://github.com/Harabushi/travelers-hidden-gems"
+                className="text-decoration-none link-info"
+                target="_blank"
+                rel="noreferrer">Harabushi/travelers-hidden-gems
+              </a>
+            </h4>
           </div>
           <figure className="col-12 col-sm-6">
             <a href="https://sleepy-woodland-16634.herokuapp.com/" target="_blank" rel="noreferrer">
@@ -68,7 +82,7 @@ const Projects = () => {
         </div>
         <div className="row">
           <div className="col-12 col-sm-6">
-            <h3 className="text-secondary">B & E Website</h3>
+            <h3 className="text-light border-bottom border-primary">B & E Website</h3>
             <h4>My Role: Full-Stack</h4>
             <p>
               A website for promotion of the local music production group know as B & E. 
@@ -80,6 +94,13 @@ const Projects = () => {
             <p>
               The B & E app is made with React.js front-end with MongoDB, Express.js and Node.js running the back-end
             </p>
+            <h4>
+              Repo: <a href="https://github.com/Harabushi/B-and-E-website"
+                className="text-decoration-none link-info"
+                target="_blank"
+                rel="noreferrer">Harabushi/B-and-E-website
+              </a>
+            </h4>
           </div>
           <figure className="col-12 col-sm-6">
             <a href="https://harabushi.github.io/B-and-E-website/" target="_blank" rel="noreferrer">
