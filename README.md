@@ -29,6 +29,7 @@ Visit the website, look around, and you can even find my resume there!
 
 ## Preview
 
+![screen shot of site](./src/assets/images/portfolio-screenshot.png)
 
 ## Made By:  
 [Harabushi](https://github.com/Harabushi) - Colby Harris
